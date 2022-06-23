@@ -1,1 +1,62 @@
 /*teste 123*/
+
+body {
+    background-color: black;
+    opacity: 0.9;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.download {
+    color: aquamarine;
+    font-size: 16px;
+    text-align: center;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+.title2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+}
+
+#paragraph {
+    text-align: center;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+}
+
+#camp {
+    display: flex;
+    justify-content: center;
+}
+
+#mobilelogo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#mobilelogo img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    text-align: right;
+    color: gray;
+}
