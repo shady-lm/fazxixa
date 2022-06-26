@@ -4,6 +4,10 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+* {
+    margin: 0;
+}
+
 /* NAV configs*/
 
 #fixed-nav {
@@ -48,12 +52,12 @@ body {
 
 /* Banner */
 
-#rel-learn-something-new-everyday {
+#main-learn-something-new-everyday {
     background-color: lightgray;
     display: block;
     width: 100%;
     position: relative;
-    top: 4rem;
+    margin-top: 4rem;
 }
 
 #flex-learn-something-new-everyday {
@@ -87,8 +91,45 @@ body {
     padding: 0.5rem;
 }
 
-#rel-keep-practicing {
-    display: block;
-    height: 200px;
-    background-color: aquamarine;
+/*Keep practicing */
+
+#main-keep-practicing {
+    display: flex;
+    padding: 2rem 1.5rem;
+    gap: 1.5rem;
+}
+
+#left-keep-practicing {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+#left-keep-practicing h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#left-keep-practicing img {
+    margin-bottom: 2rem;
+}
+
+#written-by {
+    margin-top: 2rem;
+    font-size: 1rem;    
+}
+
+#right-keep-practicing {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+.post {
+    display: flex;
+}
+
+.post-text {
+    display: flex;
+    flex-direction: column;
 }
