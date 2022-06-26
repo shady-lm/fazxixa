@@ -112,6 +112,7 @@ body {
 
 #left-keep-practicing img {
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 #written-by {
@@ -126,10 +127,26 @@ body {
 }
 
 .post {
+    margin: 0 1rem 1rem 1rem;
     display: flex;
+    gap: 1rem;
+}
+
+.post img {
+    width: 35%;
 }
 
 .post-text {
     display: flex;
     flex-direction: column;
+    width: 65%;
+    justify-content: center;
+    gap: 0.5rem;
 }
+
+.readmore {
+    padding-top: 0.5rem;
+    color: rgb(61, 61, 149);
+    font-weight: bold;
+}
+
