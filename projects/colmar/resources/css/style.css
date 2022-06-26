@@ -95,13 +95,13 @@ body {
 
 #main-keep-practicing {
     display: flex;
-    padding: 2rem 1.5rem;
     gap: 1.5rem;
 }
 
 #left-keep-practicing {
     display: flex;
     width: 60%;
+    margin: 2rem 0 2rem 1.5rem;
     flex-direction: column;
 }
 
@@ -111,8 +111,8 @@ body {
 }
 
 #left-keep-practicing img {
-    margin-bottom: 2rem;
     width: 100%;
+    margin-bottom: 2rem;
 }
 
 #written-by {
@@ -124,16 +124,28 @@ body {
     display: flex;
     width: 40%;
     flex-direction: column;
+    border-left: 1px solid lightgray;
 }
 
 .post {
-    margin: 0 1rem 1rem 1rem;
     display: flex;
     gap: 1rem;
+    border-bottom: 4px solid lightgray;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    transition-property: all;
+    transition: .25s ease-out;
+}
+
+.post:first-child {
+    padding-top: 2rem;
 }
 
 .post img {
     width: 35%;
+}
+
+.post:hover {
+    background-color: darkgray;
 }
 
 .post-text {
@@ -149,4 +161,3 @@ body {
     color: rgb(61, 61, 149);
     font-weight: bold;
 }
-
