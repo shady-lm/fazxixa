@@ -191,8 +191,7 @@ body {
 
 .post-tile {
     background-color: white;
-    display: flex;
-    flex-direction: column;
+    flex: 0;
 }
 
 .post-tile-text {
@@ -204,7 +203,6 @@ body {
     gap: 1rem;
 }
 
-/*
 .post-tile-image img {
     width: 100%;
-}*/
+}
