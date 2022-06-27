@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-/* NAV configs*/
+/*----------------- NAV configs -----------------*/
 
 #fixed-nav {
     background-color: white;
@@ -50,7 +50,7 @@ body {
     opacity: 0.7;
 }
 
-/* Banner */
+/*----------------- Banner -----------------*/
 
 #main-learn-something-new-everyday {
     background-color: lightgray;
@@ -80,6 +80,7 @@ body {
     flex-wrap: wrap;
     align-self: center;
     width: 100%;
+    gap: 2rem;
 }
 
 #button {
@@ -91,7 +92,7 @@ body {
     padding: 0.5rem;
 }
 
-/*Keep practicing */
+/*----------------- Keep practicing DIV ----------------- */
 
 #main-keep-practicing {
     display: flex;
@@ -140,8 +141,12 @@ body {
     padding-top: 2rem;
 }
 
-.post img {
+.post-image {
     width: 35%;
+}
+
+.post-image img {
+    width: 100%;
 }
 
 .post:hover {
@@ -161,3 +166,45 @@ body {
     color: rgb(61, 61, 149);
     font-weight: bold;
 }
+
+/*---------------------- Start Learning DIV ----------------------*/
+
+#main-start-learning {
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+}
+
+#main-start-learning h1 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#posts-gallery {
+    margin: 2rem 4.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.post-tile {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-tile-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+/*
+.post-tile-image img {
+    width: 100%;
+}*/
