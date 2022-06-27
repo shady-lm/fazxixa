@@ -183,7 +183,6 @@ body {
 #posts-gallery {
     margin: 2rem 4.5rem;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 2rem;
@@ -191,18 +190,17 @@ body {
 
 .post-tile {
     background-color: white;
-    flex: 0;
+    flex: 0 0 30%;
 }
 
 .post-tile-text {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 1rem;
     gap: 1rem;
+    padding: 1rem;
 }
 
 .post-tile-image img {
     width: 100%;
 }
+
