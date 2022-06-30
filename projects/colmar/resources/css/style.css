@@ -261,7 +261,6 @@ footer {
 
 #footer-left {
     float: left;
-    display: inline-block;
 }
 
 #footer-left p {
@@ -271,7 +270,6 @@ footer {
 
 #footer-right {
     float: right;
-    display: inline-block;
     margin-right: 1.5rem;
 }
 
