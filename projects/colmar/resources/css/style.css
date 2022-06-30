@@ -209,3 +209,74 @@ body {
     width: 100%;
 }
 
+
+/*----------------------- THESIS DIV ---------------------*/
+
+#block-thesis-exhibit {
+    text-align: center;
+}
+
+#block-thesis-exhibit h1 {
+    margin: 2rem 0;
+}
+
+#thesis-exhibit {
+    display: flex;
+    width: 100%;
+}
+
+#thesis-left {
+    width: 60%;
+    margin: 0 1.5rem;
+}
+
+#thesis-left h2, #thesis-left p {
+    text-align: left;
+}
+
+#thesis-left h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#thesis-left video {
+    width: 100%;
+}
+
+#thesis-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+/*-------------- FOOTER -----------------*/
+
+footer {
+    width: 100%;
+    margin-top: 2rem;
+    border-top: 1px solid darkgray;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+#footer-left {
+    float: left;
+    display: inline-block;
+}
+
+#footer-left p {
+    margin-left: 1.5rem;
+    color: darkgray;
+}
+
+#footer-right {
+    float: right;
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+#footer-right span {
+    margin-left: 1rem;
+    color: darkgray;
+}
+
