@@ -50,12 +50,6 @@ body {
         display: none;
     }
 
-    .colmar-logo {
-        display: none;
-        color: black;
-        opacity: 0.7;
-    }
-
     #mobile-nav {
         display: flex;
         width: 100%;
@@ -75,13 +69,11 @@ body {
     #flex-learn-something-new-everyday {
         display: flex;
         width: 100%;
-        gap: 1.5rem;
+        flex-direction: column;
     }
 
     #flex-learn-something-new-everyday img {
-        display: flex;
-        padding: 2rem 0 2rem 1.5rem;
-        width: 60%;
+        width: 100%;
     }
 
     #learn-right {
@@ -93,6 +85,11 @@ body {
         align-self: center;
         width: 100%;
         gap: 2rem;
+        padding: 2rem 0;
+    }
+
+    #learn-right h1, #learn-right h3 {
+        padding-left: 1rem;
     }
 
     #button {
@@ -102,6 +99,7 @@ body {
         text-align: center;
         border: 1px solid black;
         padding: 0.5rem;
+        align-self: center;
     }
 
     /*----------------- Keep practicing DIV ----------------- */
@@ -113,36 +111,19 @@ body {
     }
 
     #left-keep-practicing {
-        display: flex;
-        width: 60%;
-        margin: 2rem 0 2rem 1.5rem;
-        flex-direction: column;
-    }
-
-    #left-keep-practicing h2 {
-        font-size: 2rem;
-        margin-bottom: 1.5rem;
-    }
-
-    #left-keep-practicing img {
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-
-    #written-by {
-        margin-top: 2rem;
-        font-size: 1rem;    
+        display: none;
     }
 
     #right-keep-practicing {
         display: flex;
-        width: 40%;
+        width: 100%;
         flex-direction: column;
         border-left: 1px solid lightgray;
     }
 
     .post {
         display: flex;
+        flex-direction: column;
         gap: 1rem;
         border-bottom: 4px solid lightgray;
         padding: 1rem 1.5rem 1rem 1.5rem;
@@ -155,8 +136,18 @@ body {
     }
 
     .post-image {
-        width: 35%;
+        display: none;
     }
+
+    .post-image-mobile {
+        width: 100%;
+    }
+    
+    .post-image-mobile img {
+        max-width: 100%;
+    }
+
+
 
     .post-image img {
         width: 100%;
@@ -297,6 +288,10 @@ body {
 /*----------------- NAV configs ----------------*/
     
 @media only screen and (min-width: 600px) {
+
+    .post-image-mobile {
+        display: none;
+    }
 
     #mobile-nav {
         display: none;
